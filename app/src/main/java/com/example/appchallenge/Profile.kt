@@ -1,5 +1,6 @@
 package com.example.appchallenge
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
@@ -17,15 +18,14 @@ class Profile : AppCompatActivity() {
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
         val image: ImageView = findViewById(R.id.my_photo)
-        image.setOnClickListener(){
-            val params: LinearLayout.LayoutParams = LinearLayout.LayoutParams(200, 200)
-            //image.(params)
+        image.setOnClickListener{
+            startActivity(Intent(this,Profile_Photo::class.java))
         }
 
 
     }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if (item!!.itemId == android.R.id.home){
+        if (item.itemId == android.R.id.home){
             finish()
         }
         return true

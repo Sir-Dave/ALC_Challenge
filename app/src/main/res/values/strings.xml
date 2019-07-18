@@ -5,10 +5,11 @@
     <string name="btn1_text">ABOUT ALC</string>
     <string name="btn2_text">MY PROFILE</string>
     <string name="title_activity_about">About ALC</string>
-    <string name="track">Track:     Android</string>
+    <string name="track">Track: Android</string>
     <string name="country">Country: Nigeria</string>
     <string name="email">Email: davidolanrewaju2000@gmail.com</string>
     <string name="phone_num">Phone Number: 2348101310757</string>
     <string name="slack_username">Slack Username: @Sir Dave</string>
     <string name="Profile">My Profile</string>
+    <string name="Profile_Photo">Profile Photo</string>
 </resources>
